@@ -1,0 +1,120 @@
+@import "https://fonts.googleapis.com/css?family=Oswald";
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 0;
+  background: #1e1e1e;
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+h1{ margin: 0; }
+.cursor {
+    cursor: pointer;
+}
+
+.close {
+    color: black;
+    position: absolute;
+    top: -10px;
+    right: 8px;
+    font-size: 35px;
+    font-weight: bold;
+    z-index: 1;
+    opacity: 1 !important;
+}
+
+
+
+#contact {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  margin: 4em auto;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  background: #c86ac7;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+#contact:hover { color: #1e1e1e; }
+#contact:active { background: #444; }
+
+#contactForm {
+  display: none;
+
+  position: relative;
+  border: 6px solid #c86ac7 ;
+  padding: 2em;
+  width: 400px;
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%)
+
+}
+
+#contactForm  input,  .textarea {
+  margin: .8em auto;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+
+  display: block;
+  width: 280px;
+  padding: .4em;
+  border: 1px solid #1e1e1e;
+}
+
+#contactForm .input:hover{
+  color:#c86ac7;
+  border: 1px solid #c86ac7;
+}
+
+
+#contactForm .input:focus{
+
+  outline: none;
+}
+
+
+
+#contactForm .textarea {
+   height: 80px;
+  resize: none;
+}
+
+#contactForm .textarea:hover{
+  color:#c86ac7;
+  border: 1px solid #c86ac7;
+}
+
+#contactForm .textarea:focus{
+  outline:none;
+}
+
+
+.formBtn {
+  width: 140px;
+  display: inline-block;
+
+  background: #1e1e1e;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+}
+
+.formBtn:hover{
+  color:#c86ac7;
+   border: 2px solid #c86ac7;
+}

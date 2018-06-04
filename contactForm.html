@@ -1,0 +1,20 @@
+<div id="contact">Apply</div>
+
+<div id="contactForm" class="input">
+<div class="cursor close" onclick="closeModal()">×</div>
+
+  <h1>Fill out the form below</h1>
+  <small>I'll get back to you as quickly as possible</small>
+
+  <form  method="POST" action="sendGridMail.php" enctype="multipart/form-data">
+    <input placeholder="Full Name" type="text" class="input" required />
+    <input placeholder="Email" type="email" class="input" required />
+
+    <p>Upload your resume</p>
+
+    <input placeholder="Attach Resume" type="file" class="input" required />
+    <textarea placeholder="Tell us about yourself" class="textarea"></textarea>
+    <input class="formBtn input"  type="submit" />
+    <input class="formBtn input" type="reset" />
+  </form>
+</div>
